@@ -58,18 +58,23 @@
   font-size: 1.5rem;
   font-weight: bold;
   color: var(--font-color);
-  vertical-align: middle;
+  vertical-align: bottom;
 }
 .home-article-title a:hover {
   color: var(--theme-color);
 }
 .home-article-encrypt {
-  display: flex;
-  align-items: center;
+  display: inline-block;
   height: 2rem;
+  width: 1.5rem;
+  position: relative;
+  margin-right: 0.3rem;
 }
 .home-article-encrypt .icon {
+  position: absolute;
   height: 1.35rem;
+  width: 100%;
+  top: 50%;
 }
 .home-article-sticky {
   background-color: var(--theme-color);

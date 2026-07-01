@@ -1,7 +1,7 @@
 span.mask {
   position: relative;
   margin: 0 0.12rem;
-  background: var(--font-color);
+  background: var(--font-color-light-3);
   border-radius: 0.2rem;
   color: rgba(0,0,0,0);
   transition: all 0.2s ease-in-out;
@@ -14,6 +14,7 @@ span.mask[type='1'].visited {
 span.mask[type='2'] {
   background: none !important;
   text-decoration: underline var(--font-color-light-2);
+  -webkit-text-decoration: underline var(--font-color-light-2);
 }
 span.mask[type='2'].visited {
   color: var(--font-color);

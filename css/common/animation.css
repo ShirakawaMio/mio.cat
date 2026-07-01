@@ -502,3 +502,47 @@
     opacity: 1;
   }
 }
+@-moz-keyframes color-change {
+  0% {
+    color: var(--font-color);
+  }
+  50% {
+    color: var(--theme-color);
+  }
+  100% {
+    color: var(--font-color);
+  }
+}
+@-webkit-keyframes color-change {
+  0% {
+    color: var(--font-color);
+  }
+  50% {
+    color: var(--theme-color);
+  }
+  100% {
+    color: var(--font-color);
+  }
+}
+@-o-keyframes color-change {
+  0% {
+    color: var(--font-color);
+  }
+  50% {
+    color: var(--theme-color);
+  }
+  100% {
+    color: var(--font-color);
+  }
+}
+@keyframes color-change {
+  0% {
+    color: var(--font-color);
+  }
+  50% {
+    color: var(--theme-color);
+  }
+  100% {
+    color: var(--font-color);
+  }
+}
