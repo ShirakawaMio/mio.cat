@@ -36,3 +36,41 @@ $ hexo deploy
 ```
 
 More info: [Deployment](https://hexo.io/docs/one-command-deployment.html)
+
+## Traducció al català
+
+Benvingut a [Hexo](https://hexo.io/)! Aquesta és la teva primera entrada. Consulta la [documentació](https://hexo.io/docs/) per obtenir més informació. Si tens problemes quan fas servir Hexo, pots trobar la resposta a la [resolució de problemes](https://hexo.io/docs/troubleshooting.html) o em pots preguntar a [GitHub](https://github.com/hexojs/hexo/issues).
+
+### Inici ràpid
+
+#### Crear una entrada nova
+
+``` bash
+$ hexo new "My New Post"
+```
+
+Més informació: [Escriptura](https://hexo.io/docs/writing.html)
+
+#### Executar el servidor
+
+``` bash
+$ hexo server
+```
+
+Més informació: [Servidor](https://hexo.io/docs/server.html)
+
+#### Generar fitxers estàtics
+
+``` bash
+$ hexo generate
+```
+
+Més informació: [Generació](https://hexo.io/docs/generating.html)
+
+#### Desplegar a llocs remots
+
+``` bash
+$ hexo deploy
+```
+
+Més informació: [Desplegament](https://hexo.io/docs/one-command-deployment.html)
